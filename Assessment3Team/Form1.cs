@@ -106,7 +106,7 @@ namespace Assessment3Team
 
                         if (!myArray.Contains(target))
                         {
-                            myArray[dataListBox.SelectedIndex] = int.Parse(dataTextBox.Text);
+                            myArray[dataListBox.SelectedIndex] = target;
                             dataTextBox.Focus();
                             displayArray();
                         }
