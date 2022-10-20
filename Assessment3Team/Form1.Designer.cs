@@ -54,6 +54,7 @@
             this.dataTextBox.Name = "dataTextBox";
             this.dataTextBox.Size = new System.Drawing.Size(237, 20);
             this.dataTextBox.TabIndex = 1;
+            this.dataTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dataTextBox_KeyPress);
             // 
             // sortDataButton
             // 
@@ -73,6 +74,7 @@
             this.searchDataButton.TabIndex = 3;
             this.searchDataButton.Text = "Search List";
             this.searchDataButton.UseVisualStyleBackColor = true;
+            this.searchDataButton.Click += new System.EventHandler(this.searchDataButton_Click);
             // 
             // editDataButton
             // 
@@ -82,6 +84,7 @@
             this.editDataButton.TabIndex = 4;
             this.editDataButton.Text = "Edit Value";
             this.editDataButton.UseVisualStyleBackColor = true;
+            this.editDataButton.Click += new System.EventHandler(this.editDataButton_Click);
             // 
             // label1
             // 
