@@ -12,6 +12,7 @@ using System.Windows.Forms;
 // Team Members: Lewis, Jarryd, Derrick
 // Date: 20/10/2022 
 // Version: 1.0 
+// Jarryd was here
 // Name of Program: Astronomical Processing
 // Function: Record the interaction of neutrino hourly
 // Inputs/Processes/Output
