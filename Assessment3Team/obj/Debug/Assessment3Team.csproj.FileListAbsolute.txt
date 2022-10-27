@@ -31,3 +31,14 @@ C:\Users\30063186\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug
 C:\Users\30063186\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.csproj.CoreCompileInputs.cache
 C:\Users\30063186\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.exe
 C:\Users\30063186\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.pdb
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\bin\Debug\Assessment3Team.exe.config
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\bin\Debug\Assessment3Team.exe
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\bin\Debug\Assessment3Team.pdb
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.csproj.AssemblyReference.cache
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.csproj.SuggestedBindingRedirects.cache
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.Form1.resources
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.Properties.Resources.resources
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.csproj.GenerateResource.cache
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.csproj.CoreCompileInputs.cache
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.exe
+C:\Users\30066568\Source\Repos\RickyCgt\C-Assessment-3\Assessment3Team\obj\Debug\Assessment3Team.pdb

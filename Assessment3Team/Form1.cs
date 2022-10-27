@@ -36,7 +36,7 @@ namespace Assessment3Team
         private void randomDataButton_Click(object sender, EventArgs e)
         {
             Random random = new Random();
-           
+
             // Define min and max random value to choose
             int maxRandom = 99;
             int minRandom = 10;
@@ -65,14 +65,14 @@ namespace Assessment3Team
         /// Selects he appropriate item in the dataListBox if
         /// the target is found.
         /// </summary>
-        private void searchDataButton_Click(object sender, EventArgs e)
+        private void binarySearchDataButton_Click(object sender, EventArgs e)
         {
             // Check if a target is given
             if (!(string.IsNullOrEmpty(dataTextBox.Text)))
             {
                 // The target to search for
                 int target;
-                
+
                 // Convert the given input to an integer value
                 if (Int32.TryParse(dataTextBox.Text, out target))
                 {
@@ -180,7 +180,7 @@ namespace Assessment3Team
             }
 
             displayArray();
-            
+
         }
 
         /// <summary>
@@ -196,5 +196,11 @@ namespace Assessment3Team
                 e.Handled = true;
             }
         }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+
+        }
+
     }
 }
