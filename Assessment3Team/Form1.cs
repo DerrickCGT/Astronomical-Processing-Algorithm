@@ -44,11 +44,8 @@ namespace Assessment3Team
 
         private void displayArray()
         {
-            dataListBox.Items.Clear();
-            for (int i = 0; i < arraySize; i++)
-            {
-                dataListBox.Items.Add((i + 1) + ". " + myArray[i]);
-            }
+            dataListBox.DataSource = null;
+            dataListBox.DataSource = myArray;
         }
 
         private void searchDataButton_Click(object sender, EventArgs e)
