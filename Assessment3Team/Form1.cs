@@ -11,7 +11,7 @@ using System.Windows.Forms;
 // Team Name: Big Chungus Da Third
 // Team Members: Lewis, Jarryd, Derrick
 // Date: 20/10/2022 
-// Version: 1.3 
+// Version: 1.3.1
 // Name of Program: Astronomical Processing
 // Function: Record the interaction of neutrino hourly
 // Inputs/Processes/Output
