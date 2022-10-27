@@ -38,7 +38,7 @@ namespace Assessment3Team
             Random random = new Random();
 
             // Define min and max random value to choose
-            int maxRandom = 99;
+            int maxRandom = 99; 
             int minRandom = 10;
 
             // Fill the array with random values
