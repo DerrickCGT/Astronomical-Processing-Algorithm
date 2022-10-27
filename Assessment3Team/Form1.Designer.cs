@@ -158,7 +158,8 @@
             this.midExtremeButton.Size = new System.Drawing.Size(75, 23);
             this.midExtremeButton.TabIndex = 9;
             this.midExtremeButton.Text = "Mid Extreme";
-            this.toolTip1.SetToolTip(this.midExtremeButton, "Return the mid point data");
+            this.toolTip1.SetToolTip(this.midExtremeButton, "Return the mid value by sum of the smallest and largest value of the data list di" +
+        "vided by 2");
             this.midExtremeButton.UseVisualStyleBackColor = true;
             // 
             // modeButton
@@ -178,7 +179,7 @@
             this.averageButton.Size = new System.Drawing.Size(75, 23);
             this.averageButton.TabIndex = 11;
             this.averageButton.Text = "Average";
-            this.toolTip1.SetToolTip(this.averageButton, "Return the average of all data ");
+            this.toolTip1.SetToolTip(this.averageButton, "Return the average value of the data list");
             this.averageButton.UseVisualStyleBackColor = true;
             // 
             // rangeButton
@@ -195,6 +196,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(446, 180);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(237, 20);
             this.textBox1.TabIndex = 13;
             this.toolTip1.SetToolTip(this.textBox1, "Output result for mathematical function");
