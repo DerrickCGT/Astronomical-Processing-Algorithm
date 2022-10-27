@@ -161,6 +161,7 @@
             this.toolTip1.SetToolTip(this.midExtremeButton, "Return the mid value by sum of the smallest and largest value of the data list di" +
         "vided by 2");
             this.midExtremeButton.UseVisualStyleBackColor = true;
+            this.midExtremeButton.Click += new System.EventHandler(this.midExtremeButton_Click);
             // 
             // modeButton
             // 

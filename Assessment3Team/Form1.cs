@@ -202,5 +202,9 @@ namespace Assessment3Team
 
         }
 
+        private void midExtremeButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
