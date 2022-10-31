@@ -149,6 +149,7 @@
             this.sequentialSearchDataButton.Text = "Sequential Search";
             this.toolTip1.SetToolTip(this.sequentialSearchDataButton, "Find data in the data list (Sequential Search Algorithm)");
             this.sequentialSearchDataButton.UseVisualStyleBackColor = true;
+            this.sequentialSearchDataButton.Click += new System.EventHandler(this.sequentialSearchDataButton_Click);
             // 
             // midExtremeButton
             // 
@@ -172,6 +173,7 @@
             this.modeButton.Text = "Mode";
             this.toolTip1.SetToolTip(this.modeButton, "Return data that appears most frequently in the data list ");
             this.modeButton.UseVisualStyleBackColor = true;
+            this.modeButton.Click += new System.EventHandler(this.modeButton_Click);
             // 
             // averageButton
             // 
@@ -182,6 +184,7 @@
             this.averageButton.Text = "Average";
             this.toolTip1.SetToolTip(this.averageButton, "Return the average value of the data list");
             this.averageButton.UseVisualStyleBackColor = true;
+            this.averageButton.Click += new System.EventHandler(this.averageButton_Click);
             // 
             // rangeButton
             // 
@@ -192,6 +195,7 @@
             this.rangeButton.Text = "Range";
             this.toolTip1.SetToolTip(this.rangeButton, "Return the difference between the largest and the smallest data in the data list");
             this.rangeButton.UseVisualStyleBackColor = true;
+            this.rangeButton.Click += new System.EventHandler(this.rangeButton_Click);
             // 
             // textBox1
             // 

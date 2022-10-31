@@ -38,7 +38,7 @@ namespace Assessment3Team
             Random random = new Random();
 
             // Define min and max random value to choose
-            int maxRandom = 99; 
+            int maxRandom = 99;
             int minRandom = 10;
 
             // Fill the array with random values
@@ -204,7 +204,152 @@ namespace Assessment3Team
 
         private void midExtremeButton_Click(object sender, EventArgs e)
         {
+            int min = Min(myArray);
+            int max = Max(myArray);
+            double sum = (double)(max + min) / 2;
+            textBox1.Text = sum.ToString("0.00");
+        }
 
+        /// <summary>
+        ///  Sequential seach or linear search.
+        /// </summary>
+        private void sequentialSearchDataButton_Click(object sender, EventArgs e)
+        {
+
+
+            if (!string.IsNullOrEmpty(dataTextBox.Text))
+            {
+                int target;
+
+                // Convert input into a integer
+                if (Int32.TryParse(dataTextBox.Text, out target))
+                {
+                    int N = myArray.Length;
+                    // iterates through the array.
+                    for (int i = 0; i < N; i++)
+                    {
+                        // compares input with each iteration.
+                        if (myArray[i] == target)
+                        {
+                            // prints if found 
+                            MessageBox.Show("Found");
+                            return;
+                        }
+
+                    }
+                    // prints if not found
+                    MessageBox.Show("Not Found");
+                    return;
+
+
+                }
+
+
+            }
+            else
+            {
+                MessageBox.Show("You have not enter anyting to search for.");
+            }
+
+        }
+
+
+
+        /// <summary>
+        /// Minimum of the array.
+        /// </summary>
+        public int Min(int[] myArray)
+        {
+
+            int min = myArray[0];
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                if (myArray[i] < min)
+                {
+                    min = myArray[i];
+                }
+            }
+            return min;
+        }
+
+        /// <summary>
+        /// Maximum of the array. 
+        /// </summary>
+        public int Max(int[] myArray)
+        {
+            int max = myArray[0];
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                if (myArray[i] > max)
+                {
+                    max = myArray[i];
+                }
+            }
+            return max;
+        }
+
+        /// <summary>
+        /// The average of every number in the array
+        /// </summary>
+        private void averageButton_Click(object sender, EventArgs e)
+        {
+            double sum = 0;
+
+            if (myArray.Length == 0)
+            {
+                textBox1.Text = "0";
+            }
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                sum += myArray[i];
+            }
+
+            double mathSum = sum / myArray.Length;
+            textBox1.Text = mathSum.ToString("0.00");
+        }
+
+        /// <summary>
+        /// The number between the min number and max number.
+        /// </summary>
+        private void rangeButton_Click(object sender, EventArgs e)
+        {
+            int min = Min(myArray);
+            int max = Max(myArray);
+            int sum = max - min;
+            textBox1.Text = sum.ToString();
+        }
+
+        private void modeButton_Click(object sender, EventArgs e)
+        {
+            int max = 0;
+            int[] count = new int[100];
+
+            foreach (int i in myArray)
+            {
+                count[i]++;
+                if (count[i] > count[max])
+                {
+                    max = i;
+                }
+            }
+            if (count[max] == 1)
+            {
+                textBox1.Text = String.Join(",", myArray);
+            }
+            else
+            {
+                string result = "";
+                for (int i = 0; i < count.Length; i++)
+                {
+                    if (count[i] == count[max])
+                    {
+                        result += i.ToString() + ", ";
+                    }
+                }
+                textBox1.Text = result.Substring(0, result.Length - 2);
+            }
         }
     }
 }
