@@ -247,6 +247,7 @@ namespace Assessment3Team
                         {
                             // prints if found 
                             MessageBox.Show("Found");
+                            dataListBox.SelectedIndex = i;
                             return;
                         }
 
