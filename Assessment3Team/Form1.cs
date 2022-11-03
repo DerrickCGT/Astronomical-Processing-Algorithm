@@ -113,6 +113,10 @@ namespace Assessment3Team
                 }
             }
 
+            else
+            {
+                 MessageBox.Show("You have not enter anything to search for.");
+            }
         }
 
         /// <summary>
@@ -143,6 +147,14 @@ namespace Assessment3Team
                         MessageBox.Show("Error! That is not a valid input.");
                     }
                 }
+                else
+                {
+                        MessageBox.Show("You have not enter anything to search for.");
+                }
+            }
+            else
+            {
+                    MessageBox.Show("You have not selected anything for edit.");
             }
         }
 
@@ -197,11 +209,10 @@ namespace Assessment3Team
             }
         }
 
-        private void toolTip1_Popup(object sender, PopupEventArgs e)
-        {
 
-        }
-
+        /// <summary>
+        /// The middle value of the sum of max and min number in the array.
+        /// </summary>
         private void midExtremeButton_Click(object sender, EventArgs e)
         {
             int min = Min(myArray);
@@ -248,7 +259,7 @@ namespace Assessment3Team
             }
             else
             {
-                MessageBox.Show("You have not enter anyting to search for.");
+                MessageBox.Show("You have not enter anything to search for.");
             }
 
         }
@@ -321,10 +332,13 @@ namespace Assessment3Team
             textBox1.Text = sum.ToString();
         }
 
+        /// <summary>
+        /// The number appears most frequently in the array.
+        /// </summary>
         private void modeButton_Click(object sender, EventArgs e)
         {
             int max = 0;
-            int[] count = new int[100];
+            int[] count = new int[Max(myArray)+1];
 
             foreach (int i in myArray)
             {

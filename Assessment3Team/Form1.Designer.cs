@@ -136,9 +136,6 @@
             this.randomDataButton.UseVisualStyleBackColor = false;
             this.randomDataButton.Click += new System.EventHandler(this.randomDataButton_Click);
             // 
-            // toolTip1
-            // 
-            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
             // sequentialSearchDataButton
             // 
