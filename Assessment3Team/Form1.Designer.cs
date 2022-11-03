@@ -65,6 +65,7 @@
             // dataTextBox
             // 
             this.dataTextBox.Location = new System.Drawing.Point(446, 77);
+            this.dataTextBox.MaxLength = 2;
             this.dataTextBox.Name = "dataTextBox";
             this.dataTextBox.ShortcutsEnabled = false;
             this.dataTextBox.Size = new System.Drawing.Size(237, 20);
