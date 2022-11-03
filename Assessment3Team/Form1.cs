@@ -158,6 +158,9 @@ namespace Assessment3Team
             }
         }
 
+        /// <summary>
+        /// Sort the array in numerical order.
+        /// </summary>
         private void sortDataButton_Click(object sender, EventArgs e)
         {
             // Track if a sort was performed
