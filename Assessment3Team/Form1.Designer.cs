@@ -66,6 +66,7 @@
             // 
             this.dataTextBox.Location = new System.Drawing.Point(446, 77);
             this.dataTextBox.Name = "dataTextBox";
+            this.dataTextBox.ShortcutsEnabled = false;
             this.dataTextBox.Size = new System.Drawing.Size(237, 20);
             this.dataTextBox.TabIndex = 1;
             this.toolTip1.SetToolTip(this.dataTextBox, "Data input for edit or search");
@@ -135,7 +136,6 @@
             this.toolTip1.SetToolTip(this.randomDataButton, "Fill the data list with randomized data between 10 - 99");
             this.randomDataButton.UseVisualStyleBackColor = false;
             this.randomDataButton.Click += new System.EventHandler(this.randomDataButton_Click);
-            // 
             // 
             // sequentialSearchDataButton
             // 
